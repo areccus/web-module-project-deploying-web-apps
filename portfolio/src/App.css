@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Bakbak+One&display=swap');
+
+.App {
+  text-align: center;
+}
+
+body {
+  background-color: #0a0a0a;
+  /* #121212 */
+  color: white
+}
+
+nav h2 {
+  font-weight: 500;
+  color: orange;
+}
+
+.iconDiv {
+  /* border: white 2px solid; */
+  margin-right: 3%;
+}
+nav {
+  display: flex;
+  justify-content: left;
+  margin: 0 2%;
+  /* border: 2px red solid; */
+}
+
+.nav-items {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 8vw;
+}
+
+.icon {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+}
+
+.nav-items a {
+  text-decoration: none;
+  font-size: 1.2vw;
+  margin: 0 3%;
+  color: white;
+  font-weight: 500;
+}
+
+.devtype {
+  color: #d4114b;
+}
+
+.top {
+  margin-right: 60%;
+  margin-top: 25%;
+  font-family: 'Bakbak One', sans-serif;
+  font-size: 1.5em;
+}
+
+.about {
+  display: flex;
+  font-family: 'Bakbak One', sans-serif;
+  flex-direction: column;
+  margin-top: 15%;
+  margin-left: 50%;
+  margin-right: 5%;
+  font-size: 1.2em;
+}
+
+.about h1 {
+  font-size: 3.5em;
+}
+
+.projects {
+  margin-top: 15%;
+  font-family: 'Bakbak One', sans-serif;
+  font-size: 1.7em;
+}
+
+.projectsIMG {
+  display: flex;
+  justify-content: space-around;
+}
+
+.projectsIMG img {
+  width: 25%;
+  height: 30%;
+  border: white 1px solid;
+}
+
+.contact {
+  margin-top: 10%;
+  background-color: palegoldenrod;
+  color: black;
+  padding: 1%;
+  font-size: 1.5em;
+}
+
+.contact a {
+  color: black;
+  text-decoration: none;
+}
+
+.contactInfo {
+ margin-top: 1%;
+ display: flex;
+ flex-direction: column;
+}
+
+
+
+
+
+
